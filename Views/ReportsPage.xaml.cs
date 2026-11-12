@@ -2,7 +2,7 @@ using System.Windows;
 using System.Windows.Controls;
 using Microsoft.Win32;
 
-namespace DrugUsageSimple.Views;
+namespace MedicineUsageSystem.Views;
 
 public partial class ReportsPage : UserControl
 {

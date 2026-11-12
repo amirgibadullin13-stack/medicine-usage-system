@@ -6,7 +6,7 @@
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
-      "program": "${workspaceFolder}/bin/Debug/net10.0-windows/DrugUsageSimple.dll",
+      "program": "${workspaceFolder}/bin/Debug/net10.0-windows/MedicineUsageSystem.dll",
       "cwd": "${workspaceFolder}",
       "console": "internalConsole"
     }

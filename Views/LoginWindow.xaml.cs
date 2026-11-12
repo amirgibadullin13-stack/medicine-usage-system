@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace DrugUsageSimple.Views;
+namespace MedicineUsageSystem.Views;
 
 public partial class LoginWindow : Window
 {

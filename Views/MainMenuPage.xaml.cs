@@ -1,7 +1,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace DrugUsageSimple.Views;
+namespace MedicineUsageSystem.Views;
 
 public partial class MainMenuPage : UserControl
 {

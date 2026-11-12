@@ -2,15 +2,15 @@ using System.IO;
 using System.Globalization;
 using Microsoft.Data.Sqlite;
 
-namespace DrugUsageSimple;
+namespace MedicineUsageSystem;
 
 /// <summary>Доступ к файлу базы SQLite и создание схемы.</summary>
 public static class Db
 {
     public static string Dir { get; } = Path.Combine(
-        Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "DrugUsageSimple");
+        Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MedicineUsageSystem");
 
-    public static string FilePath { get; } = Path.Combine(Dir, "drugusagesimple.db");
+    public static string FilePath { get; } = Path.Combine(Dir, "MedicineUsageSystem.db");
 
     public static SqliteConnection Open()
     {

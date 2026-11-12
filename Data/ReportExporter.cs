@@ -1,6 +1,6 @@
 using ClosedXML.Excel;
 
-namespace DrugUsageSimple;
+namespace MedicineUsageSystem;
 
 /// <summary>Выгрузка отчётов в XLSX. Применённые фильтры записываются в шапку листа.</summary>
 public static class ReportExporter

@@ -1,4 +1,4 @@
-namespace DrugUsageSimple;
+namespace MedicineUsageSystem;
 
 public enum RefKind { Departments, Drugs }
 

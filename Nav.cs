@@ -1,7 +1,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace DrugUsageSimple;
+namespace MedicineUsageSystem;
 
 /// <summary>Простая навигация: в окне всегда показана одна «страница».</summary>
 public static class Nav

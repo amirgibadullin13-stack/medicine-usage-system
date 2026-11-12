@@ -1,6 +1,6 @@
 using Microsoft.Data.Sqlite;
 
-namespace DrugUsageSimple;
+namespace MedicineUsageSystem;
 
 /// <summary>Все операции с данными: справочники, пациенты, отчёты.</summary>
 public static class Repo

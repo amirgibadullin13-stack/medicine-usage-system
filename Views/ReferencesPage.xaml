@@ -1,7 +1,7 @@
-<UserControl x:Class="DrugUsageSimple.Views.ReferencesPage"
+<UserControl x:Class="MedicineUsageSystem.Views.ReferencesPage"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:v="clr-namespace:DrugUsageSimple.Views">
+             xmlns:v="clr-namespace:MedicineUsageSystem.Views">
     <Grid Margin="32,24">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

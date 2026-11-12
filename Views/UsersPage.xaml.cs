@@ -2,7 +2,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace DrugUsageSimple.Views;
+namespace MedicineUsageSystem.Views;
 
 /// <summary>Управление пользователями — только для администратора.</summary>
 public partial class UsersPage : UserControl

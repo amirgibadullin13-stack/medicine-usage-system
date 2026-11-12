@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <RootNamespace>DrugUsageSimple</RootNamespace>
-    <AssemblyName>DrugUsageSimple</AssemblyName>
+    <RootNamespace>MedicineUsageSystem</RootNamespace>
+    <AssemblyName>MedicineUsageSystem</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

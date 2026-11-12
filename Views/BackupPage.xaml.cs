@@ -3,7 +3,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using Microsoft.Win32;
 
-namespace DrugUsageSimple.Views;
+namespace MedicineUsageSystem.Views;
 
 public partial class BackupPage : UserControl
 {

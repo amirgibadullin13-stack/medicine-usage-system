@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace DrugUsageSimple;
+namespace MedicineUsageSystem;
 
 public partial class MainWindow : Window
 {

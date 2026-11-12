@@ -2,7 +2,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace DrugUsageSimple.Views;
+namespace MedicineUsageSystem.Views;
 
 /// <summary>Редактор одного справочника: список слева, поле названия и кнопки.</summary>
 public partial class ReferenceEditor : UserControl

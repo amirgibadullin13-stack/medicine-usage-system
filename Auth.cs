@@ -1,4 +1,4 @@
-namespace DrugUsageSimple;
+namespace MedicineUsageSystem;
 
 /// <summary>Текущий вошедший пользователь.</summary>
 public static class Auth

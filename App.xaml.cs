@@ -1,9 +1,9 @@
 using System.Globalization;
 using System.Windows;
 using System.Windows.Markup;
-using DrugUsageSimple.Views;
+using MedicineUsageSystem.Views;
 
-namespace DrugUsageSimple;
+namespace MedicineUsageSystem;
 
 public partial class App : Application
 {
@@ -60,7 +60,7 @@ public partial class App : Application
             return;
         }
 
-        var main = new DrugUsageSimple.MainWindow();
+        var main = new MedicineUsageSystem.MainWindow();
         MainWindow = main;
         main.Closed += (_, _) =>
         {

@@ -4,7 +4,7 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using Microsoft.Data.Sqlite;
 
-namespace DrugUsageSimple;
+namespace MedicineUsageSystem;
 
 public class BackupFile
 {

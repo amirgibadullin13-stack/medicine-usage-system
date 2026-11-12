@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace DrugUsageSimple.Views;
+namespace MedicineUsageSystem.Views;
 
 /// <summary>Смена собственного пароля текущим пользователем.</summary>
 public partial class ChangePasswordWindow : Window

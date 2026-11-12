@@ -5,7 +5,7 @@
       "label": "build",
       "command": "dotnet",
       "type": "process",
-      "args": ["build", "${workspaceFolder}/DrugUsageSimple.csproj"],
+      "args": ["build", "${workspaceFolder}/MedicineUsageSystem.csproj"],
       "problemMatcher": "$msCompile",
       "group": { "kind": "build", "isDefault": true }
     }

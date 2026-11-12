@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace DrugUsageSimple.Views;
+namespace MedicineUsageSystem.Views;
 
 /// <summary>Карточка пациента: добавление (patientId = 0) и редактирование.</summary>
 public partial class PatientEditPage : UserControl

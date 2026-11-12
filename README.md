@@ -14,7 +14,7 @@ dotnet run
 Дважды щёлкните `publish.bat` (или выполните `publish.bat` в терминале). Готовый файл появится здесь:
 
 ```
-publish\DrugUsageSimple.exe
+publish\MedicineUsageSystem.exe
 ```
 
 Это один файл, его можно копировать на любой компьютер с Windows 10/11 x64 — .NET устанавливать не нужно.
@@ -40,7 +40,7 @@ publish\DrugUsageSimple.exe
 | Справочники | Отделения и препараты |
 | Резервное копирование | Выгрузка базы в JSON и восстановление (заменить / объединить). Копии старой версии без дат подходят: дата берётся из даты исполнения |
 
-База хранится в `%LocalAppData%\DrugUsageSimple\drugusagesimple.db`.
+База хранится в `%LocalAppData%\MedicineUsageSystem\MedicineUsageSystem.db`.
 
 ## Документация
 
