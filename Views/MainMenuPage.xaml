@@ -1,0 +1,73 @@
+<UserControl x:Class="DrugUsageSimple.Views.MainMenuPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="48,40,48,32">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock Text="Система учёта использования препаратов" Style="{StaticResource PageTitle}"/>
+            <TextBlock Text="Фиксируйте использование препаратов по пациентам и получайте итоги за любой период."
+                       Margin="0,8,0,0"/>
+        </StackPanel>
+
+        <DockPanel Grid.Row="1" Margin="0,20,0,0">
+            <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                <Button Content="Сменить пароль" Style="{StaticResource SecondaryButton}"
+                        Click="Password_Click" Margin="0,0,8,0"/>
+                <Button Content="Выйти из учётной записи" Style="{StaticResource SecondaryButton}"
+                        Click="Logout_Click"/>
+            </StackPanel>
+            <TextBlock x:Name="UserText" VerticalAlignment="Center"/>
+        </DockPanel>
+
+        <WrapPanel Grid.Row="2" Margin="0,24,0,0" VerticalAlignment="Top">
+
+            <Button Style="{StaticResource TileButton}" Click="Entry_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TileTitle}" Text="Начать ввод"/>
+                    <TextBlock Style="{StaticResource TileText}" Text="Добавить пациента и использованные препараты"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource TileButton}" Click="Patients_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TileTitle}" Text="Пациенты"/>
+                    <TextBlock Style="{StaticResource TileText}" Text="Список карточек: найти, изменить, удалить"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource TileButton}" Click="Reports_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TileTitle}" Text="Отчёты"/>
+                    <TextBlock Style="{StaticResource TileText}" Text="Детальный отчёт и общий итог за период, выгрузка в XLSX"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource TileButton}" Click="References_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TileTitle}" Text="Справочники"/>
+                    <TextBlock Style="{StaticResource TileText}" Text="Отделения и препараты"/>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource TileButton}" Click="Backup_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TileTitle}" Text="Резервное копирование"/>
+                    <TextBlock Style="{StaticResource TileText}" Text="Сохранить базу в файл и восстановить после сбоя"/>
+                </StackPanel>
+            </Button>
+
+            <Button x:Name="UsersTile" Style="{StaticResource TileButton}" Click="Users_Click" Visibility="Collapsed">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TileTitle}" Text="Пользователи"/>
+                    <TextBlock Style="{StaticResource TileText}" Text="Логины и пароли, добавление и смена паролей (администратор)"/>
+                </StackPanel>
+            </Button>
+
+        </WrapPanel>
+    </Grid>
+</UserControl>
